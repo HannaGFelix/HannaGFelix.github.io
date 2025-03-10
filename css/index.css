@@ -1,0 +1,23 @@
+.profile h5{
+    font-weight: bold;
+}
+
+.workexp .link{
+    color: azure;
+}
+
+.workexp h4{
+    font-weight: bold;
+}
+
+.topSkills h4{
+    font-weight: bold;
+}
+
+.projects h4{
+    font-weight: bold;
+}
+
+.projects .github{
+    color: azure;
+}
