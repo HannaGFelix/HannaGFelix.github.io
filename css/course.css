@@ -1,0 +1,24 @@
+
+body{
+    color: black;
+}
+
+#course-list{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.course{
+    width: 325px;
+    background-color: bisque;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+
+
