@@ -7,54 +7,56 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-          <a class="navbar-brand" href="#"><h1>Hanna Felix</h1></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a class="nav-link active" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Completed Courses
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="course.html">Computer Programming</a></li>
-                          <li><a class="dropdown-item" href="bba.html">Bachelor of Business Admin</a></li>
-                          <li><a class="dropdown-item" href="marketing.html">Bachelor of Business - Marketing</a></li>
-                      </ul>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="resume.html">Resume</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="project.html">Projects</a>
-                  </li>
+        <a class="navbar-brand" href="#">Hanna Felix</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="resume.html">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="course.html">Course</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="project.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Top Projects
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-          </div>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary" type="submit">Search</button>
+          </form>
+        </div>
       </div>
     </nav>
-    
-    <div class="content">
+     
+    <div class="personalInfo">
+      <div class="pic">
+        <p>adfgsdfgsdfgdsfgsdfgsdfgfg</p>
+      </div>
       <div class="profile">
-        <h5>Junior Computer Programmer with a background in Business Administration</h5>
-            <p>
-                Combining both business and technology experise I am dedicated to leveraging programming and data-driven insights to create impactful applications that enhance customer experience and business efficiency.
-                <ul>
-                    <li>Junior Programmer</li>
-                    <li>Technical Support Representative</li>
-                    <li>Junior Software Developer</li>
-                    <li>Junior Database Administrator</li>
-                    <li>Junior Data Analyst</li>
-                </ul>
-            </p>
+          <p>
+            Junior Computer Programmer with a background in Bachelor of Business Administration. Combining both business and technology expertise I am dedicated to leveraging programming and data-driven insights to create impactful applications that enhance customer experience and business efficiency.
+          </p>
       </div>
 
       <div class="topSkills">
@@ -62,16 +64,18 @@
           <ul>
               <li>Java</li>
               <li>Python</li>
+              <li>Web Programming(HTML, CSS & JavaScript)</li>
               <li>C++</li>
               <li>COBOL</li>
           </ul>
-          <!--Link to Technical Skills in Resume-->
       </div>
-        
+    </div>
+    
+    <div class="content">
       <div class="workexp" data-positionType="co-op" data-industryType="techIndustry">
         <a class="link" href="resume.html"><h4>Recent Experince</h4></a>
-          <h5>IT Analyst (Co-op)| Canada Revenue Agency(CRA) - ITB Department</h5>
-          <h5>Jan. 2024 - Dec. 2024</h5>
+          <p class="expLocation">IT Analyst (Co-op)| Canada Revenue Agency(CRA) - ITB Department</p>
+          <p class="rYear">Jan. 2024 - Dec. 2024</p>
           <ul>
             <li>Responsibilities include providing technical assistance to stakeholders by tracking and managing the department self-hosted ticketing system daily and providing solutions based on office procedures</li>
             <li>Involved in documenting technical support and procedures -including FAQs and Step-by-Step guides- to improve workflow efficiency and ensure consistency in operations</li>
@@ -86,7 +90,7 @@
           </ul>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-rZtNHx0pG5P9Nss8BTRRz6GBU7x3WfdYXwRt79jnsHh0DglI6qy3hF6E5z8kkq0c" crossorigin="anonymous"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
   </body>
   <footer>
 
