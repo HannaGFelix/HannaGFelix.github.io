@@ -48,3 +48,10 @@
 .workexp li{
     width: 60%
 }
+
+.box{
+    /*display: none;*/
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    background-color: lavender;
+}
