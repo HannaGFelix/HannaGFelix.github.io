@@ -10,89 +10,158 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e87de9eba.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <!--Navigation bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Hanna Felix</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="resume.html">Resume</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="course.html">Course</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="project.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Top Projects
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">In Progress</a></li>
-                <li><a class="dropdown-item" href="#">In Progress</a></li>
-                <li><a class="dropdown-item" href="#">In Progress</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-primary" type="submit">Search</button>
-          </form>
+    <!--This is the header-->
+    <header>
+      <!--put a logo here-->
+      <a href="index.html"><img src="Resources/Images/favicon.png" alt="Logo" class="logo"></a>
+      <h1 class="pTitle">Hanna Felix</h1>
+
+      <!--This is navigation bar-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="course.html">Course</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="project.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">In Progress</a></li>
+                  <li><a class="dropdown-item" href="#">In Progress</a></li>
+                  <li><a class="dropdown-item" href="#">In Progress</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-primary" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="personalInfo">
+        <div class="pic">
+        </div>
+        <div class="profile">
+            <p>
+              Hanna is a Junior Computer Programmer with a background in Bachelor of Business Administration. Combining both business and technology expertise she is dedicated to leveraging programming and data-driven insights to create impactful applications that enhance customer experience and business efficiency.
+            </p>
         </div>
       </div>
-    </nav>
-     
-    <div class="personalInfo">
-      <div class="pic">
-        <p>adfgsdfgsdfgdsfgsdfgsdfgfg</p>
+<!--
+        <div class="topSkills">
+          <h4>Top Programming Skills</h4>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>Web Programming(HTML, CSS & JavaScript)</li>
+                <li>C++</li>
+                <li>COBOL</li>
+            </ul>
+        </div>
       </div>
-      <div class="profile">
-          <p>
-            Junior Computer Programmer with a background in Bachelor of Business Administration. Combining both business and technology expertise I am dedicated to leveraging programming and data-driven insights to create impactful applications that enhance customer experience and business efficiency.
-          </p>
+--> 
+      <div class="content">
+        <div class="workexp" data-positionType="co-op" data-industryType="techIndustry">
+          <a class="link" href="resume.html">Recent Experince</a>
+            <p class="expLocation">IT Analyst (Co-op)| Canada Revenue Agency(CRA) - ITB Department</p>
+            <p class="rYear">Jan. 2024 - Dec. 2024</p>
+            <ul>
+              <li>Responsibilities include providing technical assistance to stakeholders by tracking and managing the department self-hosted ticketing system daily and providing solutions based on office procedures</li>
+              <li>Involved in documenting technical support and procedures -including FAQs and Step-by-Step guides- to improve workflow efficiency and ensure consistency in operations</li>
+              <li>Leveraged Jira, a project management tool, to track task, monitor progress and ensure timely completion of project milestones</li>
+            </ul>
+        </div>
+
+        <div class="project">
+          <a class="link" href="https://github.com/HannaGFelix">Top Projects</a>
+            <p>In Progres</p>
+            <!--
+            <ul>
+                <li>Web Programming</li>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                <li>Java</li>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                <li>Python</li>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                <li>C++</li>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+                <li>COBOL</li>
+                <ul>
+                  <li>1</li>
+                  <li>2</li>
+                  <li>3</li>
+                </ul>
+            </ul>
+            -->
+        </div>
+
+        <div>
+          <i class="fa-solid fa-laptop-code fa-2xl"></i>
+        </div>
+      </div>
+    </main>
+
+    <!--This is the footer-->
+    <footer>
+      <div class="footerSocials">
+        <p>My Socials</p>
+        <a href="https://www.linkedin.com/in/hannafelix/">
+          <i class="fa-brands fa-linkedin fa-2xl"></i>
+        </a>
+        <a href="https://github.com/HannaGFelix">
+          <i class="fa-brands fa-square-github fa-2xl"></i>
+        </a>
       </div>
 
-      <div class="topSkills">
-        <h4>Top Programming Skills</h4>
-          <ul>
-              <li>Java</li>
-              <li>Python</li>
-              <li>Web Programming(HTML, CSS & JavaScript)</li>
-              <li>C++</li>
-              <li>COBOL</li>
-          </ul>
-      </div>
-    </div>
-    
-    <div class="content">
-      <div class="workexp" data-positionType="co-op" data-industryType="techIndustry">
-        <a class="link" href="resume.html"><h4>Recent Experince</h4></a>
-          <p class="expLocation">IT Analyst (Co-op)| Canada Revenue Agency(CRA) - ITB Department</p>
-          <p class="rYear">Jan. 2024 - Dec. 2024</p>
-          <ul>
-            <li>Responsibilities include providing technical assistance to stakeholders by tracking and managing the department self-hosted ticketing system daily and providing solutions based on office procedures</li>
-            <li>Involved in documenting technical support and procedures -including FAQs and Step-by-Step guides- to improve workflow efficiency and ensure consistency in operations</li>
-            <li>Leveraged Jira, a project management tool, to track task, monitor progress and ensure timely completion of project milestones</li>
-          </ul>
+      <div class="footerWebContent">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="course.html">Course</a>
       </div>
 
-      <div class="projects">
-        <a class="github" href="https://github.com/HannaGFelix"><h4>Top Projects</h4></a>
-          <ul>
-              <li>To be updated...</li>
-          </ul>
+      <div class="footerProjects">
+        <a href="project.html">Projects</a>
       </div>
-    </div>
+
+      <a href="index.html"><img src="Resources/Images/favicon.png" alt="Logo" class="logo"></a>
+      
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>  
   </body>
-  <footer>
-
-  </footer>
 </html>

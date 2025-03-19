@@ -13,3 +13,65 @@
     padding-right: 50px;
     padding-bottom: 50px;
 }*/
+
+header{
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0px;    
+}
+
+.logo{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    width: 80px;
+    float: left;
+
+}
+
+.pTitle{
+    padding: 5px;
+    font-size: 22px;
+}
+
+footer{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+
+}
+
+.footerSocials a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerSocials a:hover{
+    text-decoration: none;
+    color:rgb(133, 133, 133);
+}
+
+
+.footerWebContent a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerWebContent a:hover{
+    color:rgb(133, 133, 133);
+}
+
+.footerProjects a{
+    text-decoration: none;
+    color: black;
+}
+
+.footerProjects a:hover{
+    color:rgb(133, 133, 133);
+}
