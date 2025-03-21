@@ -49,3 +49,26 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
 }
+
+.project p{
+    text-align: center;
+}
+
+.fa-solid.fa-laptop-code.fa-2xl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: slideRight;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes slideRight{
+    0%{transform: translate(0);}
+    35%{transform: translateX(50%);}
+    60%{transform: translateX(-50%);}
+    100%{transform: translateX(50%);}
+}
+
