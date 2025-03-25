@@ -52,6 +52,17 @@ footer{
     color: black;
 }
 
+.leetcode{
+    width: 30px;
+    height: 30px;
+}
+
+.leetcode:hover{
+    text-decoration: none;
+    color:rgb(133, 133, 133);
+}
+
+
 .footerSocials a:hover{
     text-decoration: none;
     color:rgb(133, 133, 133);

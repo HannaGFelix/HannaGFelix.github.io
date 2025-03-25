@@ -3,24 +3,6 @@
     background-color: lavender;
 }
 
-.toggle .title{
-    font-weight: bold;
-}
-
-.toggle {
-    display: flex;          
-    justify-content: space-between; 
-    align-items: center;      
-    width: 60%;             
-    padding: 10px 20px;      
-    font-size: 18px;          
-    background-color: #f8f8f2 ; 
-    color: black;             
-    border: none;             
-    border-radius: 8px;       
-    cursor: pointer;         
-}
-
 .education p{
     font-weight: bold;
     font-size: 20px;
@@ -54,4 +36,9 @@
     overflow: hidden;
     transition: height 0.3s ease-in-out;
     background-color: lavender;
+}
+
+.title{
+    font-weight: bold;
+    font-size: 20px;
 }
